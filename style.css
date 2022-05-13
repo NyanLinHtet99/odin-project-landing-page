@@ -1,13 +1,16 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
+/* Header style */
 header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 100px;
+    padding: 30px 140px;
 }
 .nav-logo{
     color: #F9FAF8;
@@ -53,3 +56,92 @@ header{
 .img-holder{
     background-color: gray;
 }
+/* End of Header style */
+
+/* Main style */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+/* information */
+.information h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 60px;
+}
+.information .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+    margin: 60px 20px 120px;
+}
+.info{
+    max-width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info-image{
+    margin: auto;
+    margin-bottom: 20px;
+    min-height: 80px;
+    max-width: 80px;
+    background-color: gray;
+}
+/* End of information */
+/* quote */
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 80px 190px;
+    text-align: right;
+}
+.quote p {
+    text-align: left;
+}
+/* End of quote */
+/* call-action */
+.call-action{
+    align-self: center;
+    display: flex;
+    background-color: #3882F6;
+    min-width: 700px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px 90px;
+    border: none;
+    border-radius: 6px;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.call-action button{
+    flex: 0 0 auto;
+    align-self: center;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 30px;
+    box-sizing: border-box;
+}
+/* End of call-action */
+/* footer */
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 28px;
+}
+/* End of footer */
