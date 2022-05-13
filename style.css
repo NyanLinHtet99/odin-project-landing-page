@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 100px;
+}
+.nav-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 10px;
+    margin-right: 0;
+}
+
+.header-container{
+    display: flex;
+    margin: 80px 0;
+    gap: 40px;
+}
+.header-container div{
+    flex: 1 1 0;
+}
+.header-container .text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header-container .text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-container .text button{
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 6px;
+    color: #F9FAF8;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+
+}
+.img-holder{
+    background-color: gray;
+}
